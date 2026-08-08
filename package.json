@@ -1,0 +1,6 @@
+{
+  "name": "vulfract",
+  "private": true,
+  "type": "module",
+  "description": "fractals drawn by the vulpin one-letter programming language"
+}
