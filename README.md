@@ -2,10 +2,6 @@
   <img src="assets/vulfract-banner.png" alt="vulfract banner">
 </p>
 
-<p align="center">
-  <img src="assets/vulfract-logo.png" alt="vulfract logo" width="120">
-</p>
-
 # vulfract
 
 Two fractals rendered as terminal art, written in Vulpin — a one-letter
