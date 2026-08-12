@@ -4,7 +4,7 @@
 
 # vulfract
 
-Two fractals rendered as terminal art, written in Vulpin — a one-letter
+Two fractals rendered as terminal art, written in Vulpin which is a one letter
 programming language where `G` prints, `E` assigns, and `?`..`;` branches.
 
 ```
@@ -14,12 +14,12 @@ node vpin.mjs mandel.v
 
 ## what you're seeing
 
-**ulam.v** — the Ulam spiral. A number spiral is laid out (1,1,2,2,3,3…
+**ulam.v** = the Ulam spiral. A number spiral is laid out (1,1,2,2,3,3…
 right, up, left, down), every cell is assigned its spiral index, and labels
 are dropped. Only primes keep their pixel: `#`. The diagonal streaks of `#`
 are the famous prime lattice.
 
-**mandel.v** — the Mandelbrot set. `c` is sampled per cell, `z = z² + c` is
+**mandel.v** = the Mandelbrot set. `c` is sampled per cell, `z = z² + c` is
 iterated up to 64 times, and the escape time picks the glyph. Blank cells are
 points that never escape — the inside of the set.
 
