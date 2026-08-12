@@ -21,7 +21,7 @@ are the famous prime lattice.
 
 **mandel.v** = the Mandelbrot set. `c` is sampled per cell, `z = z² + c` is
 iterated up to 64 times, and the escape time picks the glyph. Blank cells are
-points that never escape — the inside of the set.
+points that never escape the inside of the set.
 
 ## why it looks the way it looks
 
